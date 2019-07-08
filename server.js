@@ -69,7 +69,7 @@ io.on('connection', function (socket) {
 });
 
 
-server.listen(1251, function () {
+server.listen("https://technolab.herokuapp.com/", function () {
   console.log(`Listening on ${server.address().port}`);
 });
 
